@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Base64 Decode and Open in New Tab",
+  "version": "1.0",
+  "description": "Decode selected Base64 string and open result in new tab",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
